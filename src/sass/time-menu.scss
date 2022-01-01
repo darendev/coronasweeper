@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Iceberg&display=swap');
+
+#menu_time::after{
+   position:absolute; width:0; height:0; overflow:hidden; z-index:-1; 
+   content:url('~@/assets/icon-face-unknow.png')  url('~@/assets/icon-face-lost.png')  url('~@/assets/icon-face-win.png') url('~@/assets/icon-face-active.png'); 
+}
+
+.number_show{
+	font-family: 'Iceberg', cursive;
+	background-color:#000000;
+	color:red;	
+	display:inline-block;
+	padding:10px;
+	border-radius:5px;
+	font-size:25px;	
+	justify-content: space-around;
+    align-items: center;
+    box-sizing: border-box;      
+	min-width: 65px;
+    max-width: 80px;
+}	
+
+.new_game_face_button {
+	width:50px;
+	height:50px;
+	background-repeat: no-repeat;
+    background-size: 100% 100%;  	
+	background-position: 50% 50%;
+}	
+
+.new_game_face_button:active{	
+	background-image: url('~@/assets/icon-face-active.png');
+}	
+
+.new_game_face_button:hover{
+	cursor:pointer;
+}	
+
+.face_unknow{
+	background-image: url('~@/assets/icon-face-unknow.png');
+}	
+
+.face_lost{
+	background-image: url('~@/assets/icon-face-lost.png');
+}	
+
+.face_win{
+	background-image: url('~@/assets/icon-face-win.png');
+}	
+
+.bomb_icon_menu{
+	display: block; 
+	position: relative;	
+	
+}	
+
+.bomb_icon_menu::after{
+	position:absolute;
+	background-image: url('~@/assets/icon-bomb.png');
+	width:35px;
+	height:35px;
+	background-repeat: no-repeat;
+    background-size: 100% 100%;  	
+	background-position: 50% 50%;
+	z-index:5;
+	content: "";	
+	white-space: pre;
+	bottom: -15%;	
+	margin-left:5px;
+}	
+
+.clock_icon_menu{
+	display: block; 
+	position: relative;	
+	
+}	
+
+.clock_icon_menu:after{
+	position:absolute;
+	background-image: url('~@/assets/icon-clock.png');
+	width:25px;
+	height:25px;
+	background-repeat: no-repeat;
+    background-size: 100% 100%;  	
+	background-position: 50% 50%;
+	z-index:5;
+	content: "";	
+	white-space: pre;
+	bottom: -5%;
+}	
+
+#menu_time{
+	display: inline-flex;
+    justify-content: space-evenly;
+    width: 100%;	
+	margin-top:10px;
+	margin-bottom:10px;
+}	

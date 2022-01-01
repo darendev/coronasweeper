@@ -1,0 +1,28 @@
+export default{
+	'en': {
+        welcomeMsg: 'Welcome to Your Vue.js App eee bbbb',
+		startGame: 'Start Game',
+		maximizeBoard: 'Maximize board',
+		normalSize: "Default board size",
+		changeLevelGame: "Change game level",
+		switchLayout: "Switch layout",
+		options: "Options",
+		switchMouseButton: "Switch mouse button",
+		moveBack: "Move back",
+		moveFoward: "Move foward",
+		changeLanguage: "Polish language",		
+		safeFirstTry: "Safe first try",
+		animation: "Animation",
+		yes: "Yes",
+		no: "No",
+		gameLevel: "Game level",
+		easy: "Easy",
+		medium: "Medium",
+		hard: "Hard",
+		custom: "Custom",
+		width: "Width",
+		height: "Height",
+		bombs: "bombs",		
+		save: "Save",
+	}		
+}

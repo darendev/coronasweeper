@@ -1,0 +1,126 @@
+#menu_options_container{
+	display: inline-block;
+}	
+
+#menu_options{
+	display: flex; 
+	flex-direction: row;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+}	
+
+.menu_options_icon{
+	width:50px;
+	height:50px;
+	background-repeat: no-repeat;
+    background-size: 100% 100%;  	
+	background-position: 50% 50%;	
+	margin-bottom:10px;
+	margin-right:10px;
+}	
+.menu_options_icon:hover{
+	cursor:pointer
+}
+
+.menu_options_icon:active{
+	background-size: 90% 90%;  	
+}	
+	
+.options .hide_element, .hiddenButton{
+	opacity:0.5;	
+}	
+	
+
+.options .hide_element:active, .hiddenButton:active{
+	background-size: 100% 100%; 
+}	
+	
+.icon-level-change{	
+	background-image: url('~@/assets/icon-level-change.png');	
+}	
+.icon-design{
+	background-image: url('~@/assets/icon-design.png');	
+}	
+
+.icon-options{
+	background-image: url('~@/assets/icon-options.png');	
+}	
+.icon-flag-change-1{
+	background-image: url('~@/assets/icon-flag-change-1.png');	
+}	
+.icon-flag-change-2{
+	background-image: url('~@/assets/icon-flag-change-2.png');	
+}	
+
+.icon-arrow-left{
+	background-image: url('~@/assets/icon-arrow-left.png');	
+}	
+
+.icon-arrow-right{
+	background-image: url('~@/assets/icon-arrow-right.png');	
+}	
+
+.icon-land-pl{
+	background-image: url('~@/assets/icon-polish-flag.png');	
+}	
+
+.icon-land-en{
+	background-image: url('~@/assets/icon-bitish-flag.png');	
+}	
+
+.blue_theme .cell{
+	background-color: #28acbf;
+	border: 1px solid #434e48;
+	border-radius: 3px;
+}	
+.blue_theme .cell-empty, .blue_theme .cell-neighbour-bombs {
+	background-color: #4ce0f5;
+}
+
+
+ /* jquery tooltip */ 
+.ui-tooltip, .arrow:after {
+    background: black;
+    border: 2px solid white;
+  }
+  .ui-tooltip {
+    padding: 10px 20px;
+    color: white;
+    border-radius: 20px;
+    font: bold 14px "Helvetica Neue", Sans-Serif;
+    text-transform: uppercase;
+    box-shadow: 0 0 7px black;
+  }
+  .arrow {
+    width: 70px;
+    height: 16px;
+    overflow: hidden;
+    position: absolute;
+    left: 50%;
+    margin-left: -35px;
+    bottom: -16px;
+  }
+  .arrow.top {
+    top: -16px;
+    bottom: auto;
+  }
+  .arrow.left {
+    left: 20%;
+  }
+  .arrow:after {
+    content: "";
+    position: absolute;
+    left: 20px;
+    top: -20px;
+    width: 25px;
+    height: 25px;
+    box-shadow: 6px 5px 9px -9px black;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  .arrow.top:after {
+    bottom: -20px;
+    top: auto;
+  }
+ /* end jquery tooltip */ 

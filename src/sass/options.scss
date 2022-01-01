@@ -1,0 +1,65 @@
+
+
+#options_container{	
+	width:338px;
+	display: inline-block;
+}	
+
+#options_container fieldset{
+	border-radius:5px;	
+	margin-top:10px;
+	text-align:left;	
+}	
+
+#options_container fieldset label{
+	margin-left:10px;
+}
+
+#game-level-options{
+	display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+	margin-top:30px;	
+}	
+
+.valuebox:focus {
+    outline-color: #007fff;
+    outline-width: medium;
+}
+
+.valuebox:disabled {
+	background: #ddddddb8;
+}	
+
+.shelf {
+	flex: 1 1 auto;
+	width: 90%;
+	margin-bottom: 10px;
+	display: flex;
+	flex-direction: row;
+}
+
+.shelf:last-child {
+	margin-bottom: 0;
+}
+
+.labelbox {
+    flex: 0 0 35%;
+}
+.valuebox {
+    width:70px;
+	border-radius:5px;	  
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+#saveButton{
+	float:left;
+	margin-left:2px;
+	margin-top:10px;	
+}	

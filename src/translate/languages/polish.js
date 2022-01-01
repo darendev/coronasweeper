@@ -1,0 +1,28 @@
+export default{
+	'pl': {
+        welcomeMsg: 'Nowa Gra',		
+		startGame: 'Nowa gra',	
+		maximizeBoard: 'Maksymalizuj planszę',
+		normalSize: "Domyślny rozmiar planszy",
+		changeLevelGame: "Zmień poziom gry",
+		switchLayout: "Zmień wygląd planszy",
+		options: "Opcje",
+		switchMouseButton: "Zmień przycisk myszy",
+		moveBack: "Ruch wstecz",
+		moveFoward: "Ruch do przodu",
+		changeLanguage: "Ustaw język angielski",		
+		safeFirstTry: "Bezpieczny pierwszy ruch",
+		animation: "Animacje",
+		yes: "Tak",
+		no: "Nie",
+		gameLevel: "Poziom gry",
+		easy: "Łatwy",
+		medium: "Średni",
+		hard: "Trudny",
+		custom: "Ustawienia użytkownika",
+		width: "Szerokość",
+		height: "Wysokość",
+		bombs: "Bomby",
+		save: "Zapisz",
+	}		
+}

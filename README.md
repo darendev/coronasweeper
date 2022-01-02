@@ -1,4 +1,9 @@
-# saper
+# Coronasweeper game build with Vue, Vuex, vue-i18n, jQuery
+
+![game](https://randwords.com/coronasweeper/corona_screenshot_game1.png)
+![options](https://randwords.com/coronasweeper/corona_screenshot_game2.png)
+
+[You can play here](https://randwords.com/coronasweeper/)
 
 ## Project setup
 ```

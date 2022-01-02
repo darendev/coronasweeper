@@ -5,8 +5,8 @@
 			<keep-alive>
 				<component v-bind:is=currentMainComponent @saveOption="saveOption()" ></component>
 			</keep-alive>
+		<div id="gamelink"><a href = "https://randwords.com/coronasweeper/"> Coronasweeper</a> by <a href="https://github.com/darendev/coronasweeper">Darendev</a></div>		
 		</div>		
-	Coronasweeper by <a href="https://randwords.com/coronasweeper/">Darendev</a>	
 	</div> 
 </template>
 
@@ -97,6 +97,13 @@ export default {
 <style lang="scss">
 @import "~@/sass/bomb-board.scss";
 @import "~@/sass/top-menu.scss";
+#gamelink{
+	margin-top:20px;
+	font-size: small;
+}
+#gamelink a{
+	color: #42b983;
+}
 </style>
 
 
